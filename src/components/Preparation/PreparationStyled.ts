@@ -7,6 +7,7 @@ export const PreparationCustom = styled.div`
   padding-bottom: 24px;
   margin-left: 32px;
   margin-right: 32px;
+  margin-bottom: 32px;
 
   background-color: rgb(122, 40, 78, 0.2);
 
@@ -15,6 +16,7 @@ export const PreparationCustom = styled.div`
   & > h3 {
     margin-bottom: 16px;
 
+    font-family: "Outfit";
     color: #7a284e;
   }
 `;
