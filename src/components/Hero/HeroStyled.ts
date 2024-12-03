@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const HeroCustom = styled.div`
-margin-bottom: 32px;
-`
+  margin-bottom: 32px;
+
+  background-color: #fff7fb;
+`;
 
 export const ImageCon = styled.div`
   & > img {
