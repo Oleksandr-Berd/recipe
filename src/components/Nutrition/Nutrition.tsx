@@ -3,10 +3,10 @@ const Nutrition = () => {
     return (
       <SC.NutritionCon>
         <SC.NutritionTitle>Nutrition</SC.NutritionTitle>
-        <p>
+        <SC.NutritionText>
           The table below shows nutritional values per serving without the
           additional fillings.
-        </p>
+        </SC.NutritionText>
         <SC.NutritionListCon>
           <ul>
             <li>Calories</li>
