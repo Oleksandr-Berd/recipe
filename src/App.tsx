@@ -6,13 +6,15 @@ import Nutrition from "./components/Nutrition/Nutrition";
 import Preparation from "./components/Preparation/Preparation";
 function App() {
   return (
-    <SC.AppCustom>
-     <Hero/>
-     <Preparation/>
-     <Ingredients/>
-     <Instructions/>
-     <Nutrition/>
-    </SC.AppCustom>
+    <SC.DesktopWrapper>
+      <SC.AppCustom>
+        <Hero />
+        <Preparation />
+        <Ingredients />
+        <Instructions />
+        <Nutrition />
+      </SC.AppCustom>
+    </SC.DesktopWrapper>
   );
 }
 

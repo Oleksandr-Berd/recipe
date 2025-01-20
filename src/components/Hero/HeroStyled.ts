@@ -7,11 +7,25 @@ export const HeroCustom = styled.div`
 `;
 
 export const ImageCon = styled.div`
+  @media (min-width: 1280px) {
+    padding-top: 40px;
+  }
+
   & > img {
     width: 375px;
     height: 171px;
 
     margin-bottom: 40px;
+
+    @media (min-width: 1280px) {
+      width: 90%;
+      height: auto;
+
+      margin-left: auto;
+      margin-right: auto;
+
+      border-radius: 12px;
+    }
   }
 `;
 
