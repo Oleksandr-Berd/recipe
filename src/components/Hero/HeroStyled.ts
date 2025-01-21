@@ -4,6 +4,7 @@ export const HeroCustom = styled.div`
   margin-bottom: 32px;
 
   background-color: #fff7fb;
+
 `;
 
 export const ImageCon = styled.div`
@@ -33,6 +34,11 @@ export const Content = styled.div`
   padding-left: 32px;
   padding-right: 32px;
 
+  @media (min-width: 1280px){
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
   & > h3 {
     margin-bottom: 24px;
 
@@ -40,6 +46,10 @@ export const Content = styled.div`
     font-size: 36px;
 
     color: #312e2c;
+
+    @media (min-width: 1280px){
+      font-size: 40px;
+    }
   }
 
   & > p {
